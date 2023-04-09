@@ -1,5 +1,5 @@
 # Add -DNEEDS_STRCHRNUL to end of CFLAGS if necessary
-CFLAGS	= -ggdb3 -O0 -march=native -std=gnu99 -Wall
+CFLAGS	= -ggdb3 -O0 -std=gnu99 -DNEEDS_STRCHRNUL -Wall
 LDFLAGS	= $(CFLAGS)
 LDLIBS = -lz
 RARAS	= ./raras
