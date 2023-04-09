@@ -1,0 +1,3 @@
+[submodule "unrar"]
+	path = unrar
+	url = https://github.com/pmachapman/unrar.git

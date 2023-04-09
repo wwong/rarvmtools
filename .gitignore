@@ -1,8 +1,13 @@
 *.o
 raras
 rarld
+unrar4
 sample.rar
 bitbuffer_test
 test/*.ri
 test/*.ro
 test/*.rar
+
+unrar/*.o
+
+/.idea
